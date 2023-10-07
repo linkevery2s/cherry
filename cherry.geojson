@@ -1,0 +1,1304 @@
+const cherry = {
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "140.10868",
+          "41.430848"
+        ]
+      },
+      "properties": {
+        "name": "松前公園"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "142.422621",
+          "42.386001"
+        ]
+      },
+      "properties": {
+        "name": "二十間道路桜並木"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "140.463806",
+          "40.608036"
+        ]
+      },
+      "properties": {
+        "name": "弘前公園"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "140.45",
+          "40.919167"
+        ]
+      },
+      "properties": {
+        "name": "芦野池沼群県立自然公園"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "141.146626",
+          "39.721159"
+        ]
+      },
+      "properties": {
+        "name": "高松公園"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "141.126485",
+          "39.270711"
+        ]
+      },
+      "properties": {
+        "name": "北上市立公園展勝地"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "140.754944",
+          "38.0535"
+        ]
+      },
+      "properties": {
+        "name": "船岡城"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "140.123889",
+          "39.722222"
+        ]
+      },
+      "properties": {
+        "name": "千秋公園"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "140.573056",
+          "39.209722"
+        ]
+      },
+      "properties": {
+        "name": "真人公園"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "140.559511",
+          "39.598915"
+        ]
+      },
+      "properties": {
+        "name": "桧木内川堤・角館武家屋敷"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "139.824225",
+          "38.728539"
+        ]
+      },
+      "properties": {
+        "name": "鶴岡公園"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "140.166924",
+          "38.051147"
+        ]
+      },
+      "properties": {
+        "name": "烏帽子山公園"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "139.929786",
+          "37.487717"
+        ]
+      },
+      "properties": {
+        "name": "若松城"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "140.43",
+          "37.6"
+        ]
+      },
+      "properties": {
+        "name": "二本松城"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "140.500061",
+          "37.407694"
+        ]
+      },
+      "properties": {
+        "name": "三春滝桜"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "140.657333",
+          "36.608944"
+        ]
+      },
+      "properties": {
+        "name": "日立市かみね公園・平和通り"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "140.418636",
+          "36.502826"
+        ]
+      },
+      "properties": {
+        "name": "静峰ふるさと公園"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "139.862188",
+          "36.592596"
+        ]
+      },
+      "properties": {
+        "name": "日光街道桜並木"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "139.697542",
+          "36.359921"
+        ]
+      },
+      "properties": {
+        "name": "太平山県立自然公園"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "139.191815",
+          "36.468072"
+        ]
+      },
+      "properties": {
+        "name": "赤城南面千本桜"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "139.021167",
+          "36.161694"
+        ]
+      },
+      "properties": {
+        "name": "桜山公園"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "139.630819",
+          "35.919022"
+        ]
+      },
+      "properties": {
+        "name": "大宮公園"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "139.384618",
+          "36.136211"
+        ]
+      },
+      "properties": {
+        "name": "熊谷桜堤"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "139.112315",
+          "36.095173"
+        ]
+      },
+      "properties": {
+        "name": "長瀞"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "140.230648",
+          "35.577507"
+        ]
+      },
+      "properties": {
+        "name": "泉自然公園"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "139.860031",
+          "35.959214"
+        ]
+      },
+      "properties": {
+        "name": "清水公園"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "140.284485",
+          "35.430705"
+        ]
+      },
+      "properties": {
+        "name": "茂原公園"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "139.709722",
+          "35.685278"
+        ]
+      },
+      "properties": {
+        "name": "新宿御苑"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "139.774076",
+          "35.714082"
+        ]
+      },
+      "properties": {
+        "name": "上野恩賜公園"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "139.803416",
+          "35.711835"
+        ]
+      },
+      "properties": {
+        "name": "隅田公園"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "139.574167",
+          "35.700833"
+        ]
+      },
+      "properties": {
+        "name": "井の頭恩賜公園"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "139.518889",
+          "35.714444"
+        ]
+      },
+      "properties": {
+        "name": "小金井公園"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "139.660306",
+          "35.522889"
+        ]
+      },
+      "properties": {
+        "name": "神奈川県立三ツ池公園"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "139.657887",
+          "35.248838"
+        ]
+      },
+      "properties": {
+        "name": "衣笠山公園"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "139.156435",
+          "35.249058"
+        ]
+      },
+      "properties": {
+        "name": "小田原城址公園"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "138.841505",
+          "37.610346"
+        ]
+      },
+      "properties": {
+        "name": "大河津分水"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "139.189383",
+          "37.693661"
+        ]
+      },
+      "properties": {
+        "name": "村松公園"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "138.256672",
+          "37.109634"
+        ]
+      },
+      "properties": {
+        "name": "高田公園"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "137.213416",
+          "36.69493"
+        ]
+      },
+      "properties": {
+        "name": "松川公園"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "137.020556",
+          "36.749167"
+        ]
+      },
+      "properties": {
+        "name": "高岡城"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "136.6625",
+          "36.562139"
+        ]
+      },
+      "properties": {
+        "name": "兼六園"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "136.21875",
+          "36.063728"
+        ]
+      },
+      "properties": {
+        "name": "足羽川・足羽山公園"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "136.272144",
+          "36.152422"
+        ]
+      },
+      "properties": {
+        "name": "霞ヶ城公園（坂井）"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "138.455556",
+          "35.545833"
+        ]
+      },
+      "properties": {
+        "name": "大法師公園"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "138.312522",
+          "36.64624"
+        ]
+      },
+      "properties": {
+        "name": "臥竜公園"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "138.417247",
+          "36.327336"
+        ]
+      },
+      "properties": {
+        "name": "小諸城"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "138.0621",
+          "35.833836"
+        ]
+      },
+      "properties": {
+        "name": "高遠城址公園"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "136.848264",
+          "35.398869"
+        ]
+      },
+      "properties": {
+        "name": "新境川・百十郎桜"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "136.608828",
+          "35.63223"
+        ]
+      },
+      "properties": {
+        "name": "根尾谷・淡墨公園"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "136.547951",
+          "35.430321"
+        ]
+      },
+      "properties": {
+        "name": "霞間ヶ渓"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "139.090817",
+          "34.90728"
+        ]
+      },
+      "properties": {
+        "name": "さくらの里"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "138.908551",
+          "35.367578"
+        ]
+      },
+      "properties": {
+        "name": "冨士霊園"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "136.942563",
+          "35.132663"
+        ]
+      },
+      "properties": {
+        "name": "山崎川四季の道"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "136.918472",
+          "35.155667"
+        ]
+      },
+      "properties": {
+        "name": "鶴舞公園"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "137.158792",
+          "34.956295"
+        ]
+      },
+      "properties": {
+        "name": "岡崎公園"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "136.877088",
+          "35.279939"
+        ]
+      },
+      "properties": {
+        "name": "五条川"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "136.222028",
+          "34.517509"
+        ]
+      },
+      "properties": {
+        "name": "三多気"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "136.685996",
+          "34.49264"
+        ]
+      },
+      "properties": {
+        "name": "宮川堤"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "136.260596",
+          "35.375023"
+        ]
+      },
+      "properties": {
+        "name": "豊公園"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "136.087613",
+          "35.449653"
+        ]
+      },
+      "properties": {
+        "name": "海津大崎"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "135.681587",
+          "35.010324"
+        ]
+      },
+      "properties": {
+        "name": "嵐山"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "135.714842",
+          "35.030653"
+        ]
+      },
+      "properties": {
+        "name": "御室桜"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "135.819563",
+          "34.951024"
+        ]
+      },
+      "properties": {
+        "name": "醍醐寺"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "135.941502",
+          "34.754364"
+        ]
+      },
+      "properties": {
+        "name": "笠置山自然公園"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "135.521055",
+          "34.69668"
+        ]
+      },
+      "properties": {
+        "name": "造幣局"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "135.528591",
+          "34.685612"
+        ]
+      },
+      "properties": {
+        "name": "大阪城公園"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "135.530147",
+          "34.806758"
+        ]
+      },
+      "properties": {
+        "name": "万博記念公園"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "134.694024",
+          "34.839366"
+        ]
+      },
+      "properties": {
+        "name": "姫路城"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "134.992143",
+          "34.650545"
+        ]
+      },
+      "properties": {
+        "name": "明石公園"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "134.997179",
+          "34.643107"
+        ]
+      },
+      "properties": {
+        "name": "夙川公園・夙川河川敷緑地"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "135.837659",
+          "34.681418"
+        ]
+      },
+      "properties": {
+        "name": "奈良公園"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "135.623269",
+          "34.502369"
+        ]
+      },
+      "properties": {
+        "name": "郡山城"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "135.855461",
+          "34.372696"
+        ]
+      },
+      "properties": {
+        "name": "吉野山"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "135.187616",
+          "34.188209"
+        ]
+      },
+      "properties": {
+        "name": "紀三井寺"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "135.316658",
+          "34.28715"
+        ]
+      },
+      "properties": {
+        "name": "根来寺"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "135.69743",
+          "33.595974"
+        ]
+      },
+      "properties": {
+        "name": "七川ダム湖畔"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "134.24",
+          "35.51"
+        ]
+      },
+      "properties": {
+        "name": "久松公園"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "133.821839",
+          "35.430996"
+        ]
+      },
+      "properties": {
+        "name": "打吹公園"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "133.050725",
+          "35.475067"
+        ]
+      },
+      "properties": {
+        "name": "松江城"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "132.898267",
+          "35.290828"
+        ]
+      },
+      "properties": {
+        "name": "斐伊川堤防桜並木"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "134.001724",
+          "35.062588"
+        ]
+      },
+      "properties": {
+        "name": "津山城"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "133.19562",
+          "34.411598"
+        ]
+      },
+      "properties": {
+        "name": "千光寺公園"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "133.023002",
+          "34.857943"
+        ]
+      },
+      "properties": {
+        "name": "庄原上野公園"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "131.283112",
+          "33.945789"
+        ]
+      },
+      "properties": {
+        "name": "ときわ公園"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "132.178411",
+          "34.167596"
+        ]
+      },
+      "properties": {
+        "name": "吉香公園・錦帯橋"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "134.514692",
+          "34.068828"
+        ]
+      },
+      "properties": {
+        "name": "西部公園"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "133.642226",
+          "34.13356"
+        ]
+      },
+      "properties": {
+        "name": "琴弾公園"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "132.765373",
+          "33.844752"
+        ]
+      },
+      "properties": {
+        "name": "城山公園"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "133.719057",
+          "33.618745"
+        ]
+      },
+      "properties": {
+        "name": "鏡野公園"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "133.28",
+          "33.5"
+        ]
+      },
+      "properties": {
+        "name": "牧野公園"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "130.377131",
+          "33.59534"
+        ]
+      },
+      "properties": {
+        "name": "西公園"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "130.196684",
+          "33.289149"
+        ]
+      },
+      "properties": {
+        "name": "小城公園"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "129.956682",
+          "32.89765"
+        ]
+      },
+      "properties": {
+        "name": "大村公園"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "130.705765",
+          "32.806032"
+        ]
+      },
+      "properties": {
+        "name": "熊本城"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "130.415521",
+          "32.23252"
+        ]
+      },
+      "properties": {
+        "name": "水俣市チェリーライン"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "131.030546",
+          "32.320048"
+        ]
+      },
+      "properties": {
+        "name": "市房ダム湖畔"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "131.402413",
+          "32.966182"
+        ]
+      },
+      "properties": {
+        "name": "岡城公園"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "130.986112",
+          "31.762149"
+        ]
+      },
+      "properties": {
+        "name": "母智丘関之尾公園"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "130.615054",
+          "32.048679"
+        ]
+      },
+      "properties": {
+        "name": "忠元公園"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "127.995513",
+          "26.590654"
+        ]
+      },
+      "properties": {
+        "name": "名護城公園"
+      }
+    }
+  ]
+};

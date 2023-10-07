@@ -1,0 +1,115 @@
+<!DOCTYPE HTML>
+<html lang="ja">
+<title>日本さくら名所１００選マップ</title>
+<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# article: http://ogp.me/ns/article#">
+	<meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" >
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta property="og:title" content="日本さくら名所１００選マップ" />
+	<meta property="og:type" content="website" />
+	<meta property="og:image" content="./images/ogp.png" />
+	<meta name="description" content="日本の桜名所100選をマップにしました。桜を巡る旅に出かけましょう。美しい桜の花が咲き誇る場所を巡り、日本の春を満喫しましょう。桜の美しさと日本の文化に触れる絶好の機会です。" />
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:title" content="日本さくら名所１００選マップ" />
+	<meta name="twitter:image" content="./ogp.png" />
+	<meta name="author" content="仁志">
+	<meta name="keywords" content="日本,観光,さくら,桜,さくら名所,桜名所"/>
+	<link rel="apple-touch-icon" href="./apple-touch-icon.png">
+	<link rel="shortcut icon" href="./apple-touch-icon.png">
+
+	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css" integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI=" crossorigin="" />
+	<script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js" integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM=" crossorigin=""></script>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-hash/0.2.1/leaflet-hash.min.js" integrity="sha512-0A4MbfuZq5Au9EdpI1S5rUTXlibNBi8CuZ/X3ycwXyZiCjNzpiO9YH6EMqPgzZm6vfNCuZStBQHjnO17nIC0IQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.min.js" integrity="sha512-8BqQ2RH4L4sQhV41ZB24fUc1nGcjmrTA6DILV/aTPYuUzo+wBdYdp0fvQ76Sxgf36p787CXF7TktWlcxu/zyOg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css" integrity="sha512-cUoWMYmv4H9TGP4hbm1mIjYo90WzIQFo/5jj+P5tQcDTf+iVR59RyIj/a9fRsBxzxt5Dnv/Ex7MzRIxcDwaOLw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js" integrity="sha512-uKQ39gEGiyUJl4AI6L+ekBdGKpGw4xJ55+xyJG7YFlJokPNYegn9KwQ3P8A7aFQAUtUsAQHep+d/lrGqrbPIDQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+	<script src="./cherry.geojson"></script>
+
+
+
+	<style>
+
+		html, body, #map{
+			width: 100%;
+			height: 100%;
+			padding: 0;
+			margin: 0;
+		}
+
+		.awesome-marker {
+			font-size: 15px;
+			padding-top: 5px;
+		}
+
+	</style>
+
+	<title>日本さくら名所１００選マップ</title>
+
+	<script type="module">
+
+		onload = async () => {
+
+			const map = L.map('map', {
+				center: [38.385, 136.000],
+				minZoom: 4,
+				zoom: 6
+			});
+
+			const hash = new L.Hash(map);
+
+			const tiles = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+				maxZoom: 19,
+				attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+			}).addTo(map);
+
+			/* geoJson */
+			let toilet_m= L.geoJSON(cherry, {onEachFeature: popup_cherry, pointToLayer: pink});
+
+			map.addLayer(toilet_m);
+
+
+		}
+
+		/* Font Awesome */
+		let pink =  (feature, latlng) => {
+			let marker = new L.marker(latlng, {icon: L.AwesomeMarkers.icon({icon: 'image', prefix: 'fa', markerColor: 'pink'}) });
+			return marker;
+		}
+
+		/* Popup Display */
+
+		let popup_cherry = (feature, layer) => {
+			let popup;
+			if (feature.properties && feature.properties.name) {
+				popup = feature.properties.name;
+
+			}else{};
+
+			layer.bindPopup(popup);
+		}	
+
+
+	</script>
+
+
+</head>
+<body>
+	<div id='map'></div>
+
+	<!-- Google tag (gtag.js) -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-MPP84V2NHB"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+
+		gtag('config', 'G-MPP84V2NHB');
+	</script>
+
+</body>
+</html>
